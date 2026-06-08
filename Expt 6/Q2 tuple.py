@@ -1,0 +1,6 @@
+tup=(1,2,3,4)
+L_list=list(tup)
+L_list.append(1)
+print(L_list)
+tup_updade=tuple(L_list)
+print(tup_updade)

@@ -1,0 +1,10 @@
+#write a python program to create file in python and some data
+file=open("abc1.txt","w")
+a=input("enter a data: ")
+file.write(a)
+file.close()
+print(".....File.....")
+file=open("abc1.txt","r")
+a=file.read()
+print(a)
+file.close()
